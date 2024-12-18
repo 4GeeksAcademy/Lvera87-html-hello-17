@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:transparent;
+}
+
+.container {
+    width: 70%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: transparent;
+    
+}
+
+.header {
+    display: flex;
+    padding: 2px 15px;
+    background-color: transparent;
+    
+}
+
+.header .logo-html {
+    font-size: 45px;
+    margin-right: 5px;
+}
+
+.header .text-html {
+    
+    font-size: 20px;
+    width: 80px;
+    
+   
+}
+
+.header .puntos {
+    font-size: 45px;
+    margin-left: auto;
+
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.body {
+    padding: 15px;
+}
+
+.aweson {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.aweson i {
+    font-size: 40px;
+    margin: 2px;
+    color: transparent;
+    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+}
+.aweson i:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.aweson i.guardar {
+    margin-left: auto;
+}
+
+.body p {
+    margin-bottom: 10px;
+}
+
+.body p:nth-child(2) {
+    font-weight: 500;
+}
+
