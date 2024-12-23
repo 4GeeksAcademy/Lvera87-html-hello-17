@@ -10,6 +10,9 @@ body {
     max-width: 600px;
     margin: 20px auto;
     background-color: transparent;
+    border: 1px solid grey;
+    
+  
     
 }
 
@@ -38,6 +41,15 @@ body {
     margin-left: auto;
 
 }
+
+.header .puntos i:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+
+
+
 
 .img {
     width: 100%;
